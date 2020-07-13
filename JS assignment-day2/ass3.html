@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>
+            javascrpit - Assignment 3
+        </title>
+    </head>
+<body>
+    <h2> javascrpit - Assignment 3 Day 2 </h2>
+    <script> 
+        var today = new Date();
+        var day = today.getDate();
+        var month = today.getMonth()+1;
+        var year = today.getFullYear();
+        if(month<10)
+        {
+            month="0"+month
+        }
+        if(day<10)
+        {
+            day="0"+day
+        }
+        document.write(month +"-"+day +"-"+year);
+        document.write("<br>"+month +"/"+day +"/"+year);
+        document.write("<br>"+day +"-"+month +"-"+year);
+        document.write("<br>"+day +"/"+month +"/"+year);
+    </script>
+</body>
+</html>
